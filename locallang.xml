@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for extension 't3filelist'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="searchFormLabel">Search Files: </label>
+			<label index="SearchFormSend">Search</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="searchFormLabel">Dateien suchen: </label>
+			<label index="SearchFormSend">Suchen</label>
+		</languageKey>
+	</data>
+</T3locallang>

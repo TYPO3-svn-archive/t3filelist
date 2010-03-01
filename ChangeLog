@@ -1,0 +1,16 @@
+2010-02-10 Dimitri Koenig  <dk@cabag.ch>
+	* version 0.0.4
+	* case insensitive search in searchfiles hook
+
+2010-01-19 Dimitri Koenig  <dk@cabag.ch>
+	* version 0.0.3
+	* search form within the file element browser
+
+2010-01-18 Dimitri Koenig  <dk@cabag.ch>
+	* version 0.0.2
+	* distinction of files with same path and filename but different servers
+	* flexforms will be recognized too
+
+2010-01-12 Dimitri Koenig  <dk@cabag.ch>
+	* version 0.0.1
+	* initial code generated with kickstarter

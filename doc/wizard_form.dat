@@ -1,0 +1,4 @@
+a:2:{s:4:"save";a:3:{s:13:"extension_key";s:10:"t3filelist";s:18:"print_wop_comments";s:1:"0";s:15:"overwrite_files";a:5:{s:9:"ChangeLog";s:1:"1";s:10:"README.txt";s:1:"1";s:12:"ext_icon.gif";s:1:"1";s:19:"doc/wizard_form.dat";s:1:"1";s:20:"doc/wizard_form.html";s:1:"1";}}s:6:"emconf";a:1:{i:1;a:7:{s:5:"title";s:11:"T3 Filelist";s:11:"description";s:194:"Extends the TYPO3 native filelist with some functions like:
+* if file is renamed all references get renamed too
+* if file is renamed all references get updated to new path
+* same with folders";s:8:"category";s:2:"be";s:5:"state";s:4:"beta";s:12:"dependencies";s:0:"";s:6:"author";s:14:"Dimitri König";s:12:"author_email";s:11:"dk@cabag.ch";}}}
