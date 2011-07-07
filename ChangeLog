@@ -1,16 +1,83 @@
-2010-02-10 Dimitri Koenig  <dk@cabag.ch>
+2011-06-24 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.7
+	* extended version controlling in localconf.php
+
+2011-06-24 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.6
+	* fixed version controlling in localconf.php
+
+2011-05-20 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.5
+	* fixes error in file list: nested form
+	* reallocates searchform
+
+2011-05-18 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.4
+	* added scandir search engine
+	* code rewrite so that only two lines are needed for searching files
+
+2011-05-12 Jonas Duebi <jd@cabag.ch>
+	* version 1.1.3
+	* fixed version folder 
+	case '4.5.2':
+		$t3filelist_version_folder = '4.5.2';
+	break;
+	case '4.5.1':
+		$t3filelist_version_folder = '4.5.1';
+	break;
+	* commented out upload_func in tce_dam_file so the files are not checked when uploading. This was already done by dimitri in december 2010 :
+	">>>>
+	2010-12-01 Dimitri Koenig <dk@cabag.ch>
+	* version 1.0.9
+	* removed func_upload from extfilefunc.php
+	<<<<"
+
+2011-02-28 Sonja Scholz <ss@cabag.ch>
+	* version 1.1.2
+	* added folder for TYPO3 4.5.2
+
+2011-02-24 Sonja Scholz <ss@cabag.ch>
+	* version 1.1.1
+	* added folder for TYPO3 4.5.1
+
+2011-02-14 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.0
+	* fixed xclass code error
+
+2011-02-01 Sonja Scholz <ss@cabag.ch>
+	* version 1.0.9
+	* added version folder structure for TYPO3 version
+	* changed 4.5.0/ux_t3lib_extfilefunc - merged with original code
+
+2010-09-13 Dimitri Koenig <dk@cabag.ch>
+	* version 1.0.8
+	* fixed umlaute bug
+
+2010-09-13 Dimitri Koenig <dk@cabag.ch>
+	* version 1.0.7
+	* fixed some bugs with empty delimiters in strpos checking
+
+2010-07-13 Dimitri Koenig <dk@cabag.ch>
+	* version 1.0.6
+	* added dam support
+
+2010-07-02 Dimitri Koenig <dk@cabag.ch>
+	* version 1.0.5
+	* ter upload
+
+2010-02-10 Dimitri Koenig <dk@cabag.ch>
 	* version 0.0.4
 	* case insensitive search in searchfiles hook
 
-2010-01-19 Dimitri Koenig  <dk@cabag.ch>
+2010-01-19 Dimitri Koenig <dk@cabag.ch>
 	* version 0.0.3
 	* search form within the file element browser
 
-2010-01-18 Dimitri Koenig  <dk@cabag.ch>
+2010-01-18 Dimitri Koenig <dk@cabag.ch>
 	* version 0.0.2
 	* distinction of files with same path and filename but different servers
 	* flexforms will be recognized too
 
-2010-01-12 Dimitri Koenig  <dk@cabag.ch>
+2010-01-12 Dimitri Koenig <dk@cabag.ch>
 	* version 0.0.1
 	* initial code generated with kickstarter
