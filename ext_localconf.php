@@ -9,6 +9,14 @@ if (version_compare(TYPO3_version, '4.5.0') == -1) {
 	$t3filelist_version_folder = TYPO3_version;
 }
 
+if(!function_exists('checkFileExistsAndAssignAsXClass')){
+	function checkFileExistsAndAssignAsXClass(&$xclass, $newFile) {
+		if (file_exists($newFile)) {
+			$xclass = $newFile;
+		}
+	}
+}
+
 checkFileExistsAndAssignAsXClass($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['typo3/class.file_list.inc'], t3lib_extMgm::extPath($_EXTKEY).'typo3_versions/'.$t3filelist_version_folder.'/class.ux_file_list.php');
 checkFileExistsAndAssignAsXClass($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['typo3/file_list.php'], t3lib_extMgm::extPath($_EXTKEY).'typo3_versions/'.$t3filelist_version_folder.'/ux_SC_file_list.php');
 
@@ -32,11 +40,4 @@ if (t3lib_extMgm::isLoaded('cabag_langlink')) {
 
 $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['t3filelist/ux_browse_links.php']['searchHooks']['find'] = 'EXT:t3filelist/hooks/class.tx_t3filelist_searchfiles_find.php:tx_t3filelist_searchfiles_find';
 $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['t3filelist/ux_browse_links.php']['searchHooks']['scandir'] = 'EXT:t3filelist/hooks/class.tx_t3filelist_searchfiles_scandir.php:tx_t3filelist_searchfiles_scandir';
-
-function checkFileExistsAndAssignAsXClass(&$xclass, $newFile) {
-	if (file_exists($newFile)) {
-		$xclass = $newFile;
-	}
-}
-
 ?>

@@ -1,3 +1,15 @@
+2011-12-07 Nils Blattner <nb@cabag.ch>
+	* Version 1.2.0
+	* cd typo3_versions/; cp -R 4.5.2 4.5.8
+
+2011-12-06 Michel Lavat <ml@cabag.ch>
+	* version 1.1.9
+	* changed ext_localconf.php -> added if(!function_exists('checkFileExistsAndAssignAsXClass')){
+
+2011-09-30 Dimitri Koenig <dk@cabag.ch>
+	* version 1.1.8
+	* fixed bug with double search results
+
 2011-06-24 Dimitri Koenig <dk@cabag.ch>
 	* version 1.1.7
 	* extended version controlling in localconf.php
